@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <unistd.h>
+#include <string.h>
+
 
 // Binär → Grey (en uint32_t i taget)
 uint32_t bin_to_gray(uint32_t bin) {
